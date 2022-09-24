@@ -64,6 +64,7 @@ body {
 
 .team-list {
   background-color: var(--primary-button-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .container {
@@ -109,10 +110,6 @@ body {
   display: flex;
 
   margin-left: auto;
-}
-
-.site-nav .item {
-  outline: 1px solid tomato;
 }
 
 .site-nav .item + .item {
@@ -192,7 +189,7 @@ body {
   overflow: hidden;
 }
 
-section .title {
+.section.title {
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -219,6 +216,11 @@ section .title {
   padding-bottom: 94px;
 }
 
+.list.work {
+  display: flex;
+
+  gap: 30px;
+}
 .section.advences {
   margin-top: 94px;
   margin-bottom: 94px;
@@ -232,7 +234,13 @@ section .title {
   flex-basis: calc(100% / 4 - 30px);
 }
 
-.advences-list p {
+.advences-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .advences-list {
@@ -269,6 +277,12 @@ section .title {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
+
+.list.member {
+  display: flex;
+
+  gap: 30px;
+}
 /* BUTTON */
 
 .button.primary {
@@ -297,6 +311,8 @@ section .title {
 
 .footer {
   background-color: var(--footer-hero-color);
+  padding-top: 60px;
+  padding-bottom: 160px;
 }
 
 .site-nav.link {

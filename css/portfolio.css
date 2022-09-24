@@ -8,6 +8,28 @@
   --footer-color: #2f303a;
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
 body {
   color: var(--primary-text-color);
   background-color: #ffffff;
