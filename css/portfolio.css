@@ -92,14 +92,52 @@ body {
   overflow: hidden;
 }
 
+/* MAIN NAV */
+
+.main-nav {
+  display: flex;
+
+  align-items: center;
+}
+
+.header-main-nav {
+  display: flex;
+
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 90px;
+}
+
+.contact-nav {
+  display: flex;
+
+  margin-left: auto;
+}
+
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
+.contact-nav .item + .item {
+  margin-left: 50px;
+}
+
 /* SITE NAV */
 
 .site-nav .link {
+  display: block;
+
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .site-nav .link:hover,
@@ -144,8 +182,8 @@ body {
 
 /* SECTION TITLE */
 .section-title.title {
-  margin-top: 0;
-  margin-bottom: 4;
+  margin-top: 20px;
+  margin-bottom: 4px;
 
   color: var(--title-text-color);
   font-weight: 700;
@@ -155,11 +193,8 @@ body {
 }
 
 /* SECTION TEXT */
-p.section-text {
-  margin-top: 0;
-  margin-bottom: 20;
-  padding-top: 0;
-  padding-bottom: 0;
+.section-text {
+  padding-bottom: 20px;
 
   color: var(--primary-text-color);
   font-weight: 400;
@@ -182,7 +217,7 @@ p.section-text {
 
 /* BUTTON */
 
-.button {
+.button-primary {
   display: inline-block;
   border-radius: 4px;
   padding: 6px, 22px;
@@ -206,6 +241,13 @@ p.section-text {
   background-color: var(--accent-text-color);
   cursor: pointer;
   border-radius: 4px;
+}
+
+.button-list {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 /* FOOTER */
