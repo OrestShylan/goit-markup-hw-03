@@ -42,6 +42,12 @@ body {
   margin: 0;
 }
 
+.list.button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 .link {
   text-decoration: none;
 }
@@ -164,8 +170,14 @@ p.section-text {
 
 /* LIST WORK */
 
-.list.work {
-  padding-top: 34px;
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.portfolio-list {
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 /* BUTTON */
@@ -178,18 +190,22 @@ p.section-text {
 
   color: var(--title-text-color);
   background-color: var(--button-color-portfolio);
-  cursor: pointer;
+
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   text-align: center;
+
+  margin-bottom: 50px;
 }
-.button:focus,
-.button:hover {
+.button-primary:focus,
+.button-primary:hover {
   color: var(--primary-button-color);
   background-color: var(--accent-text-color);
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 /* FOOTER */
