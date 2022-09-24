@@ -54,6 +54,13 @@ body {
   outline: 2px solid tomato;
 }
 
+/* main-nav */
+.header-main-nav {
+  display: flex;
+
+  align-items: center;
+}
+
 /* SITE NAV */
 .web.logo {
   color: var(--accent-text-color);
@@ -66,12 +73,38 @@ body {
   color: var(--primary-button-color);
 }
 
+.site-nav {
+  display: flex;
+  margin-left: 90px;
+}
+
+.contact-nav {
+  display: flex;
+}
+
+.site-nav .item {
+  outline: 1px solid tomato;
+}
+
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
+.contact-nav .item + .item {
+  margin-left: 50px;
+}
+
 .site-nav .link {
+  display: block;
+
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.16;
   letter-spacing: 0.02em;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .site-nav .link:hover,
@@ -130,7 +163,7 @@ body {
   overflow: hidden;
 }
 
-.title {
+section .title {
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -177,6 +210,13 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+
+.advences-list {
+  display: flex;
+}
+.advences-list {
+  margin-right: 30px;
 }
 
 .member-title {
