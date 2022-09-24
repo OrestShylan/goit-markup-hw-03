@@ -11,6 +11,27 @@
   --primary-button-color: #ffffff;
   --footer-hero-color: #2f303a;
 }
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
 
 body {
   color: var(--primary-text-color);
@@ -55,6 +76,12 @@ body {
 }
 
 /* main-nav */
+.main-nav {
+  display: flex;
+
+  align-items: center;
+}
+
 .header-main-nav {
   display: flex;
 
@@ -80,6 +107,8 @@ body {
 
 .contact-nav {
   display: flex;
+
+  margin-left: auto;
 }
 
 .site-nav .item {
@@ -199,9 +228,11 @@ section .title {
   color: var(--title-text-color);
 }
 
+.advences-item {
+  flex-basis: calc(100% / 4 - 30px);
+}
+
 .advences-list p {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .advences-list {
@@ -214,9 +245,7 @@ section .title {
 
 .advences-list {
   display: flex;
-}
-.advences-list {
-  margin-right: 30px;
+  gap: 30px;
 }
 
 .member-title {
