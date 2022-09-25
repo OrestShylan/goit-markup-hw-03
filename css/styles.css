@@ -87,7 +87,6 @@ body {
 
 .header-main-nav {
   display: flex;
-
   align-items: center;
 }
 
@@ -110,10 +109,8 @@ body {
 
 .contact-nav {
   display: flex;
-
   margin-left: auto;
 }
-
 .site-nav .item + .item {
   margin-left: 50px;
 }
@@ -283,7 +280,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.list.member {
+.list-member {
   display: flex;
 
   gap: 30px;
@@ -325,8 +322,6 @@ body {
 }
 
 .footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
   display: block;
   align-items: center;
   margin: 0 auto;
@@ -344,4 +339,45 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.footer-link {
+  margin-bottom: 9px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-link:focus,
+.footer-link:hover {
+  color: var(--accent-text-color);
+}
+
+.footer-adress {
+  margin-top: 20px;
+
+  color: var(--primary-button-color);
+  font-style: normal;
+  text-decoration: none;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.footer-adress:focus,
+.footer-adress:hover {
+  color: var(--accent-text-color);
 }
