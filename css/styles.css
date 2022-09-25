@@ -65,6 +65,8 @@ body {
 .team-list {
   background-color: var(--primary-button-color);
   border-radius: 0px 0px 4px 4px;
+
+  width: calc(100% - 30px / 4);
 }
 
 .container {
@@ -189,6 +191,9 @@ body {
   overflow: hidden;
 }
 
+.team-title {
+  padding-top: 50px;
+}
 .section.title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -282,8 +287,10 @@ body {
   display: flex;
 
   gap: 30px;
-
+  margin-top: 50px;
   padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 /* BUTTON */
 
@@ -317,6 +324,13 @@ body {
   padding-bottom: 160px;
 }
 
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+}
 .site-nav.link {
   color: var(--primary-button-color);
 
