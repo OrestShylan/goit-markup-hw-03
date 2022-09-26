@@ -60,6 +60,8 @@ body {
 
 .section-team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list {
@@ -72,7 +74,7 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
@@ -128,8 +130,8 @@ body {
   line-height: 1.16;
   letter-spacing: 0.02em;
 
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav .link:hover,
@@ -161,11 +163,16 @@ body {
 .hero {
   background-color: var(--footer-hero-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
-  margin-top: 0;
+  margin-top: 200;
   margin-bottom: 30px;
 
+  margin-right: 452px;
+  margin-left: 452px;
+  width: 696px;
   color: var(--primary-button-color);
   font-weight: 900;
   font-size: 44px;
@@ -188,9 +195,6 @@ body {
   overflow: hidden;
 }
 
-.team-title {
-  padding-top: 50px;
-}
 .section.title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -224,8 +228,8 @@ body {
   gap: 30px;
 }
 .section.advences {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .advences-list .title {
@@ -237,12 +241,18 @@ body {
 }
 
 .advences-title {
+  margin-bottom: 10px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.advences-text {
+  width: 270px;
 }
 
 .advences-list {
@@ -267,6 +277,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .member-list {
@@ -278,6 +289,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .list-member {
@@ -285,9 +297,6 @@ body {
 
   gap: 30px;
   margin-top: 50px;
-  padding-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
 }
 /* BUTTON */
 
@@ -296,6 +305,7 @@ body {
   padding: 10px 32px;
   min-width: 216px;
   display: inline-block;
+  border: none;
 
   color: var(--primary-button-color);
   background-color: var(--accent-text-color);
@@ -318,7 +328,7 @@ body {
 .footer {
   background-color: var(--footer-hero-color);
   padding-top: 60px;
-  padding-bottom: 160px;
+  padding-bottom: 60px;
 }
 
 .footer-container {
@@ -364,6 +374,7 @@ body {
 
 .footer-adress {
   margin-top: 20px;
+  margin-bottom: 9px;
 
   color: var(--primary-button-color);
   font-style: normal;
@@ -380,4 +391,8 @@ body {
 .footer-adress:focus,
 .footer-adress:hover {
   color: var(--accent-text-color);
+}
+
+.footer-item {
+  margin-top: 20px;
 }
